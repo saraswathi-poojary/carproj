@@ -1,0 +1,177 @@
+
+body{
+     width: 100%; height: 100%;
+     background-color: rgba(246, 244, 241, 0.904);
+}
+.outerbox{
+     position: absolute;
+    margin:7% 0 0 12% ;
+    width: 70%;
+    height: 77%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-bottom: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.out{
+    position: absolute;
+    display: grid;
+    place-content: center;
+    place-items: center;     
+    z-index: 7;
+    margin:7% 0 0 12% ;
+    width: 36%;
+    height: 77%;
+    box-shadow: 1px 1px 5px 3px black;
+    background: linear-gradient(rgb(2, 2, 109),blue,blue,rgb(4, 4, 201));
+    
+    /* background-color: rgb(15, 15, 195); */
+    border: 2px solid black;
+    border-top-right-radius:  25%;
+    border-bottom-right-radius: 25%;     
+    opacity: 1;
+}
+#btn4{
+   margin-top: 20px;
+    width: 70px;
+    height: 29px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color:rgb(15, 15, 195,0) ;
+}
+#btn4:active{
+    width: 79px;
+    
+}
+.outerbox .inner1{
+            position: relative;
+            display: grid;
+            place-content: center;
+            place-items: center;
+            width: 49%;
+            height: 100%;
+           
+            border: 1px solid green;
+            border-top-right-radius:  25%;
+            border-bottom-right-radius: 25%;
+            /* translate: 100%; */
+            /* transform: scaleX(-1); */
+            z-index: 1;
+            opacity: 1;
+}
+
+.outerbox .inner2{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            /* border: 1px solid green; */
+            z-index: 2;
+            
+}
+.outerbox .inner2 h1{
+            margin-left: 30%;
+            margin-top: 25%;
+            
+}
+.outerbox .inner2 .icon{
+            width: 75%;
+            height: 40px;
+            margin-left: 14%;
+            /* border: 1px solid black; */
+            margin-bottom: 3%;
+            display: flex;
+            gap:5px;
+           
+}
+.outerbox .inner2 .icon img:hover{
+    filter: drop-shadow(-0.5px -0.5px 5px  rgba(0, 0, 0, 0.712));
+
+    /* width: 80%;
+    height: 98%;
+    border: 1px solid white; */
+}
+
+.signup #para{
+    display: grid;
+    place-items: center;
+    /* margin-left: 10%; */
+    
+    
+}
+.signup {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.signup input{
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin: 5px 0 19px 10% ;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.627);
+    
+}
+.signup input::placeholder{
+    color: black;
+    padding: 2px;
+}
+.signup button{
+    margin-top: 21px;
+    width: 65px;
+    height: 30px;
+    margin-left: 45%;
+    font-size: 10px;
+    border-radius: 4px;
+    border: 1px solid black;
+
+
+    /* margin-left: 43%;
+    margin-top: 5%;
+    width: 70px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 4px; */
+}
+.inner2 .createacc{
+    width: 50%;
+    height: 100%;
+    /* border:1px solid red ; */
+    display: block;
+    opacity: 1;
+    
+}
+.inner2 .createacc .inp{
+    display: block;
+    margin-top: 20px;
+    width: 75%;
+    height: 33px;
+    margin-left: 11.5%;
+    background-color: rgba(128, 128, 128, 0.627);
+    border: 1px solid black;
+    border-radius: 3px 3px 3px 3px;
+}
+.inner2 .createacc .inp::placeholder{
+    color: black;
+}
+
+#para2{
+    display: grid;
+    place-items: center;
+    font-size: small;
+    margin-top: 1px;
+}
+.inner2 .createacc #btn{
+    
+    margin-top: 25px;
+    width: 65px;
+    height: 30px;
+    margin-left: 45%;
+    font-size: 10px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
